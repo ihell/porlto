@@ -2,16 +2,16 @@ import { ThemeToggle } from "../components/ThemeToggle";
 
 export const Home = () => {
     return (
-    <div className="min-h-screen bg-background text-foreground overflow-hidden">
-        {/* theme toggle */}
-        <ThemeToggle />
-        {/* background effects */}
+        <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white transition-colors duration-300 overflow-hidden">
+            {/* theme toggle */}
+            <ThemeToggle />
+            {/* background effects */}
 
-        {/* navbar */}
+            {/* navbar */}
 
-        {/* main content */}
+            {/* main content */}
 
-        {/* footer */}
-    </div>
-     );
-   };
+            {/* footer */}
+        </div>
+    );
+};
